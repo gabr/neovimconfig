@@ -29,6 +29,9 @@ set fileencoding=utf8
 "language messages en_US.UTF-8
 set nospell
 
+" for easy terminal mode exit
+tnoremap <Esc> <C-\><C-n>
+
 " On git commit
 autocmd FileType gitcommit execute "source ".($HOME)."/vimfiles/ftplugin/gitcommit.vim"
 
