@@ -7,13 +7,14 @@ set shiftwidth=4       " indent size
 set tabstop=4          " tab width
 set clipboard=unnamed  " set public clipboard to the default one
 syntax off             " color code syntax by default
+colo industry
 
 " dont show status line until split
 set laststatus=1
 set noruler
 
 " shows white chars
-set list listchars=tab:\ \ ,trail:~,extends:>
+set list listchars=tab:\>\.,trail:~,extends:>
 
 " speed windows console
 set ttyfast     " faster redraw

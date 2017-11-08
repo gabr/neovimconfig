@@ -1,7 +1,7 @@
 " font
 GuiFont! Consolas:h9
 
-" 256 colors scheme in gVim
+" 256 color
 set background=dark
 colo solarized
 
