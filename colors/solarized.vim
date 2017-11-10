@@ -1,6 +1,6 @@
-" Name:     NeoSolarized: Colorscheme for truecolor vim
+" Name:     solarized: Colorscheme for truecolor vim
 " Author:   iCyMind <icyminnd@gmail.com>
-" URL:      https://github.com/iCyMind/NeoSolarized
+" URL:      https://github.com/iCyMind/solarized
 " License:  MIT
 " Modified: Mon Sep 26 14:45:22 CST 2016
 
@@ -12,7 +12,7 @@
 " Solarized is a carefully designed selective contrast colorscheme with dual
 " light and dark modes that runs in both GUI, 256 and 16 color modes.
 "
-" But the origin solarized does not support truecolor terminal. NeoSolarized
+" But the origin solarized does not support truecolor terminal. solarized
 " is a fixed colorscheme for neovim/vim which running in truecolor supported
 " terminal.
 "
@@ -30,7 +30,7 @@
 " ---------------------------------------------------------------------
 " INSTALLATION:
 " ---------------------------------------------------------------------
-" move the NeoSolarized.vim to your VIMRUNTIME by manual or plugin manager
+" move the solarized.vim to your VIMRUNTIME by manual or plugin manager
 "
 " MODIFY VIMRC:
 "
@@ -39,13 +39,13 @@
 "
 "     syntax enable
 "     set background=dark
-"     colorscheme NeoSolarized
+"     colorscheme solarized
 "
 " or, for the light background mode of Solarized:
 "
 "     syntax enable
 "     set background=light
-"     colorscheme NeoSolarized
+"     colorscheme solarized
 "
 " I like to have a different background in GUI and terminal modes, so I can use
 " the following if-then. However, I find vim's background autodetection to be
@@ -125,7 +125,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "NeoSolarized"
+let colors_name = "solarized"
 
 "}}}
 

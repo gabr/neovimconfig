@@ -6,8 +6,12 @@ set softtabstop=4      " soft tab width
 set shiftwidth=4       " indent size
 set tabstop=4          " tab width
 set clipboard=unnamed  " set public clipboard to the default one
+set wildignorecase     " ignore case when givin file names
 syntax off             " color code syntax by default
 colo industry
+
+" automatic file changes detection
+autocmd BufEnter,FocusGained * checktime
 
 " dont show status line until split
 set laststatus=1
